@@ -1,0 +1,23 @@
+.btn-pink {
+	background-color: #E0AFA0;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-insta {
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.btn-insta:hover {
+	color: #E0AFA0;
+	opacity: 1;
+}

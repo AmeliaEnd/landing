@@ -1,0 +1,56 @@
+/*component-files*/
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&display=swap");
+body {
+	font-family: 'Cormorant Garamond';
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+	background-color: #E7E1DA;
+}
+
+
+h2 {
+	font-family: 'Caveat';
+	font-size: 40px;
+	font-weight: lighter;
+	padding: 10px;
+	color: #463F3A;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Caveat';
+	font-size: 50px;
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+
+
+.box-shadow {
+	box-shadow: 0px 10px 30px;
+	padding: 30px;
+	margin-top: 20px;
+	background-color: #F8F8F5;
+	max-width: 1300px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.pink-text {
+	color: #B16185;
+}
+

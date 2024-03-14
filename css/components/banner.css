@@ -1,0 +1,147 @@
+.banner {
+    position: relative; /* This makes the .banner a reference for the absolute positioning of the pseudo-element */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../../img/coffe.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+   }
+
+.banner-end {
+	position: relative; /* This makes the .banner a reference for the absolute positioning of the pseudo-element */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../../img/white.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+   }
+
+.banner-end h2 {
+	font-size: 40px;
+	font-family: 'Cormorant Garamond';
+	opacity: 0,8;
+	margin-bottom: 40px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+.banner-end img {
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.banner h1 {
+	font-size: 60px;
+	font-family: 'Caveat';
+	text-align: center;
+}
+
+.banner h2 {
+	font-size: 40px;
+	font-family: 'Cormorant Garamond';
+	opacity: 0,8;
+	margin-bottom: 40px;
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+.banner a {
+	margin-left: 40px;
+}
+
+.banner-horizontal {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-horizontal img {
+	width: 100px;
+}
+
+
+.banner-gym {
+	position: relative; /* This makes the .banner a reference for the absolute positioning of the pseudo-element */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../../img/gym-banner.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0px;
+}
+
+
+.banner-cooking {
+	position: relative; /* This makes the .banner a reference for the absolute positioning of the pseudo-element */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../../img/cooking-banner.jpg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text2 {
+	color: white;
+	text-align: center;
+	font-family: 'Cormorant Garamond';
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.description-banner {
+	padding: 50px;
+	text-align: justify;
+	font-family: 'Cormorant Garamond';
+}
+
+.banner-text3 {
+	text-align: center;
+	color: #C27588;
+}
+
+.banner-places {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.banner-white {
+	background-image: url(../../img/white.jpg);
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.places {
+	width: 200px;
+	height: 400px;
+	object-fit: cover; /* This makes the image cover the space, cropping it if necessary */
+    display: block; 
+    margin-top: 20px;
+    filter: brightness(50%);
+}
+
+.place-container {
+    position: relative;
+    width: 200px; /* Match the .places width */
+    height: 400px; /* Match the .places height */
+    display: inline-block; /* Arrange containers side by side */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.place-text {
+    position: absolute;
+    bottom: 30%; /* Distance from the bottom of the container */
+    width: 100%; /* Ensure the text spans the entire width */
+    text-align: center;
+    color: white; /* Text color */
+    font-size: 30px; /* Adjust as needed */
+    font-family: 'Cormorant Garamond'; /* Optional: match your design */
+}
